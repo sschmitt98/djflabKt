@@ -5,7 +5,7 @@ version = "0.0.0-SNAPSHOT"
 
 plugins {
     id("org.jetbrains.kotlin.jvm") version "2.3.21"
-    id("com.gradleup.shadow") version "9.4.1"
+    id("com.gradleup.shadow") version "9.4.2"
     id("com.github.ben-manes.versions") version "0.54.0"
     kotlin("plugin.serialization") version "2.3.21"
     application
@@ -31,7 +31,7 @@ dependencies {
     implementation("io.ktor:ktor-client-websockets:3.5.0")
     implementation("io.ktor:ktor-serialization-kotlinx-json:3.5.0")
     implementation("org.slf4j:slf4j-api:2.0.18")
-    implementation("ch.qos.logback:logback-classic:1.5.32")
+    implementation("ch.qos.logback:logback-classic:1.5.33")
 
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
